@@ -121,7 +121,7 @@ export function ScoreCalculator() {
     setArkivError(null);
 
     try {
-      const scoreData = await getCreditScoreFromArkiv(arkivEntityKey);
+      const scoreData = await getCreditScoreFromArkiv(arkivEntityKey as `0x${string}`);
       
       if (scoreData) {
         console.log('Score loaded from Arkiv:', scoreData);

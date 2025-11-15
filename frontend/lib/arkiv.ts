@@ -134,7 +134,7 @@ export async function saveCreditScoreToArkiv(
  * Get credit score from Arkiv by entity key
  */
 export async function getCreditScoreFromArkiv(
-  entityKey: string
+  entityKey: `0x${string}`
 ): Promise<ArkivCreditScore | null> {
   const client = createArkivPublicClient();
   
