@@ -168,8 +168,8 @@ export async function queryCreditScoresByAddress(
   try {
     const query = client.buildQuery();
     const result = await query
-      .where({ key: 'address', value: address.toLowerCase() })
-      .where({ key: 'entity_type', value: 'credit_score' })
+      .where({ type: 'eq', key: 'address', value: address.toLowerCase() })
+      .where({ type: 'eq', key: 'entity_type', value: 'credit_score' })
       .withAttributes(true)
       .withPayload(true)
       .orderBy('timestamp', 'desc')
