@@ -1,4 +1,4 @@
-# Private Cross-Chain Credit Score
+# Private Credit Score
 
 MVP for hackathon combining Hyperbridge, xx.network, Arkiv, and Kusama.
 
