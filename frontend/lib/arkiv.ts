@@ -32,7 +32,7 @@ export interface ArkivCreditScore {
  * - Score 500-700 (Medium Risk): 60 days  
  * - Score 700+ (Low Risk): 90 days
  */
-export function calculateDynamicTTL(score: number): ExpirationTime {
+export function calculateDynamicTTL(score: number): ReturnType<typeof ExpirationTime.fromDays> {
   if (score < 500) {
     return ExpirationTime.fromDays(30); // High risk: shorter validity
   } else if (score < 700) {
