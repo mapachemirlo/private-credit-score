@@ -3,8 +3,8 @@ import "./globals.css";
 import { Providers } from "@/lib/providers";
 
 export const metadata: Metadata = {
-  title: "ARKIV Credit Score | Private Cross-Chain Reputation",
-  description: "DeFi credit scoring with privacy and cross-chain verification powered by Arkiv, Hyperbridge, and xx.network",
+  title: "PCS | Cross-Chain",
+  description: "Private Cross-Chain Credit Score - DeFi credit scoring with dynamic TTL powered by Arkiv, Hyperbridge, and xx.network",
 };
 
 export default function RootLayout({

@@ -68,7 +68,16 @@ export default function Home() {
           </h2>
           <p className="text-lg text-purple-200 max-w-2xl mx-auto">
             Calculate your DeFi reputation across multiple chains with privacy-preserving technology.
-            Powered by Hyperbridge, xx.network, and Arkiv.
+            Powered by{' '}
+            <a 
+              href="https://arkiv.network/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-purple-300 hover:text-purple-100 underline decoration-purple-400/50 hover:decoration-purple-300 transition-colors font-medium"
+            >
+              Arkiv
+            </a>
+            {' '}Hyperbridge y xx.network.
           </p>
         </div>
 
@@ -132,8 +141,20 @@ export default function Home() {
               <h3 className="text-2xl font-semibold text-white mb-2">
                 Connect Your Wallet
               </h3>
-              <p className="text-purple-200 mb-6">
+              <p className="text-purple-200 mb-2">
                 Connect your wallet to calculate your cross-chain credit score
+              </p>
+              <p className="text-sm text-purple-300/80 mb-6">
+                Please ensure you have the{' '}
+                <a
+                  href="https://mendoza.hoodi.arkiv.network/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-200 hover:text-white underline decoration-purple-400/50 hover:decoration-purple-200 transition-colors font-medium"
+                >
+                  Mendoza network
+                </a>
+                {' '}added to your wallet
               </p>
             </div>
           </div>
