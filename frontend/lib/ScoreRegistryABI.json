@@ -1,0 +1,255 @@
+[
+  {
+    "type": "function",
+    "name": "SCORE_VALIDITY_PERIOD",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getScore",
+    "inputs": [
+      {
+        "name": "user",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "score",
+        "type": "tuple",
+        "internalType": "struct ScoreRegistry.CreditScore",
+        "components": [
+          {
+            "name": "overall",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "loanHistory",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "liquidationAvoidance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "portfolioDiversity",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "crossChainActivity",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "timestamp",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "expiresAt",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "exists",
+            "type": "bool",
+            "internalType": "bool"
+          }
+        ]
+      },
+      {
+        "name": "isValid",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "invalidateExpiredScore",
+    "inputs": [
+      {
+        "name": "user",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "isScoreValid",
+    "inputs": [
+      {
+        "name": "user",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "scores",
+    "inputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "overall",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "loanHistory",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "liquidationAvoidance",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "portfolioDiversity",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "crossChainActivity",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "timestamp",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "expiresAt",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "exists",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "updateScore",
+    "inputs": [
+      {
+        "name": "user",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "overall",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "loanHistory",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "liquidationAvoidance",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "portfolioDiversity",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "crossChainActivity",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "event",
+    "name": "ScoreExpired",
+    "inputs": [
+      {
+        "name": "user",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "timestamp",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "ScoreUpdated",
+    "inputs": [
+      {
+        "name": "user",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "overall",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "timestamp",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      },
+      {
+        "name": "expiresAt",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  }
+]
