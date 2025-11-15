@@ -172,7 +172,7 @@ export async function queryCreditScoresByAddress(
       .where({ type: 'eq', key: 'entity_type', value: 'credit_score' })
       .withAttributes(true)
       .withPayload(true)
-      .orderBy('timestamp', 'desc')
+      .orderBy('timestamp', 'number')
       .limit(10)
       .fetch();
 
