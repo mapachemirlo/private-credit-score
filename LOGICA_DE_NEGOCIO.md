@@ -1,8 +1,8 @@
-# 💼 Private Cross-Chain Credit Score - Lógica de Negocio y Casos de Uso Empresariales
+# Private Credit Score - Lógica de Negocio y Casos de Uso Empresariales
 
-## 📌 Resumen Ejecutivo
+## Resumen Ejecutivo
 
-**Private Cross-Chain Credit Score** es una plataforma que democratiza el acceso al crédito en DeFi mediante la creación de una reputación crediticia verificable, privada y multi-cadena. Similar a cómo FICO revolucionó el crédito tradicional, este sistema permite que usuarios con buen comportamiento on-chain accedan a mejores condiciones de préstamo.
+**Private Credit Score** es una plataforma que democratiza el acceso al crédito en DeFi mediante la creación de una reputación crediticia verificable, privada y multi-cadena. Similar a cómo FICO revolucionó el crédito tradicional, este sistema permite que usuarios con buen comportamiento on-chain accedan a mejores condiciones de préstamo.
 
 ### Propuesta de Valor
 - **Para Usuarios (Borrowers)**: Menor colateralización, mejores tasas, portabilidad de reputación
@@ -80,7 +80,7 @@ María tiene:
 │      │  6. Approved: 80% LTV │                       │     │
 │      │<──────────────────────┼───────────────────────┤     │
 │      │                       │                       │     │
-│  Beneficio:            Revenue:            💼 Beneficio:│
+│  Beneficio:            Revenue:            Beneficio:│
 │  - Menos colateral        - Query fees           - Menos riesgo│
 │  - Mejor tasa             - Premium features     - Más volumen│
 │  - Acceso facilitado      - Protocol partnerships│           │
@@ -89,7 +89,7 @@ María tiene:
 
 ---
 
-## 🏢 Casos de Uso Empresariales Detallados
+## Casos de Uso Empresariales Detallados
 
 ### Caso 1: Lending Protocol Reduce Riesgo de Cartera
 

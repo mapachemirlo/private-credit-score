@@ -1,4 +1,6 @@
-# Private Cross-Chain Credit Score
+![Private Credit Score](./assets/logo.svg)
+
+# Private Credit Score
 
 > **Hackathon Subcero v3 - Milestone 1 Submission**
 > 
@@ -19,7 +21,7 @@
 
 - **Ivana** - Product Designer
 - **Claudio** - Blockchain Developer
-- **Charlie** - Blockchain Developer
+- **Charly** - Blockchain Developer
 
 ---
 
