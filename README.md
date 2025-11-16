@@ -8,10 +8,10 @@
 
 ## Demo & Resources
 
-- **Live Demo**: https://private-credit-score-v2.vercel.app/
+- **MVP**: https://private-credit-score-v2.vercel.app/
 - **Pitch Video**: https://youtu.be/Hiz7YTunCEg?si=osoIQ4sOyCisaPTU
 - **Pitch Deck**: https://docs.google.com/presentation/d/19wWsf3NNw7GrTR0JoSFFZR8HpB5Z7XLYkMiM0ExwJnU/edit?slide=id.p1#slide=id.p1
-- **Demo Video**: [Coming Soon - Separate technical walkthrough]
+- **Demo Video**: https://youtube.com/watch?si=Xqk-W6UUjL1wblUP&v=aBIBfSDOG80&feature=youtu.be
 - **Smart Contract (Sepolia)**: `0xACdfc1F029F28f8c1EE2920B0FE0ac7a80BC182B`
 - **Arkiv (Mendoza L3)**: Fully integrated with dynamic TTL
 
