@@ -99,21 +99,27 @@ The Private Cross-Chain Credit Score system combines multiple Web3 technologies 
 
 ### 3. Arkiv (Time-Scoped Storage)
 
-**Purpose**: Store scores with automatic 90-day expiration.
+**Purpose**: Store scores with automatic expiration based on risk tier.
 
 **Integration Points**:
-- Store credit scores on Arkiv L3 DB-chains
-- Programmable expiration (90 days)
-- CRUD operations via RPC
-- Pay storage fees with GLM token
+- Store credit scores on Arkiv L3 DB-chains (Mendoza testnet)
+- Programmable expiration (30/60/90 days based on risk)
+- CRUD operations via SDK
+- Demo account for hackathon (Mendoza RPC restrictions)
 
-**Implementation Status**: 🟡 Planned
-- [ ] Set up Arkiv DB-chain
-- [ ] Implement CRUD operations
-- [ ] Configure 90-day expiration
-- [ ] Handle GLM token for gas
+**Implementation Status**: ✅ **Completed**
+- [x] Set up Arkiv SDK integration
+- [x] Implement save/retrieve operations
+- [x] Configure dynamic TTL based on score
+- [x] Frontend integration with UI
 
-**Code Location**: `backend/arkiv-storage.ts` (to be created)
+**Code Location**: `frontend/lib/arkiv.ts`
+
+**Key Features Implemented**:
+- Dynamic TTL calculation: High risk (30d), Medium (60d), Low (90d)
+- Entity creation with structured payload and attributes
+- Score verification with entityKey
+- Mendoza L3 network configuration
 
 **Resources**:
 - Quickstart: https://docs.arkiv.network/quickstart

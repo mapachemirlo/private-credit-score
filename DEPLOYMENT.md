@@ -18,8 +18,8 @@
 6. Add Environment Variables:
    ```
    NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_project_id_here
-   NEXT_PUBLIC_SCORE_REGISTRY_ADDRESS=0x... (your deployed contract)
-   NEXT_PUBLIC_CHAIN_ID=11155111 (Sepolia) or 31337 (local)
+   NEXT_PUBLIC_SCORE_REGISTRY_ADDRESS=0xACdfc1F029F28f8c1EE2920B0FE0ac7a80BC182B
+   NEXT_PUBLIC_CHAIN_ID=11155111
    ```
 
 7. Click "Deploy"
@@ -48,18 +48,23 @@ vercel
 
 ### Environment Variables for Production
 
-If deploying to mainnet or public testnet:
+**Current Deployment (Sepolia)**:
 
 ```bash
 # WalletConnect Project ID (get from https://cloud.walletconnect.com/)
 NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_actual_project_id
 
-# Smart Contract Address (deploy to Sepolia first)
-NEXT_PUBLIC_SCORE_REGISTRY_ADDRESS=0x... 
+# Smart Contract Address (deployed on Sepolia)
+NEXT_PUBLIC_SCORE_REGISTRY_ADDRESS=0xACdfc1F029F28f8c1EE2920B0FE0ac7a80BC182B
 
 # Chain ID (Sepolia testnet)
 NEXT_PUBLIC_CHAIN_ID=11155111
 ```
+
+**Deployed Contract**:
+- Network: Sepolia Testnet
+- Address: `0xACdfc1F029F28f8c1EE2920B0FE0ac7a80BC182B`
+- Etherscan: https://sepolia.etherscan.io/address/0xACdfc1F029F28f8c1EE2920B0FE0ac7a80BC182B
 
 ### Updating After Deployment
 

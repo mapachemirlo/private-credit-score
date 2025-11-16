@@ -293,10 +293,10 @@ const result = await cMixxClient.queryScore({
 │   └── public/
 │
 ├── docs/                  # Documentation
-│   ├── ARCHITECTURE.md
-│   ├── DEPLOYMENT.md
-│   └── EXECUTIVE_SUMMARY.md
+│   └── ARCHITECTURE.md
 │
+├── DEPLOYMENT.md         # Deployment guide
+├── LOGICA_DE_NEGOCIO.md  # Business logic
 ├── PITCH_DEFENSE.md      # Hackathon pitch guide
 ├── MILESTONE-2-PLAN.md   # Detailed roadmap
 └── README.md             # This file
@@ -338,7 +338,7 @@ npm run dev
 ### Documentation
 
 - [Technical Architecture](./docs/ARCHITECTURE.md)
-- [Deployment Guide](./docs/DEPLOYMENT.md)
+- [Deployment Guide](./DEPLOYMENT.md)
 - [Business Logic](./LOGICA_DE_NEGOCIO.md)
 - [Pitch Defense Guide](./PITCH_DEFENSE.md)
 - [Milestone 2 Plan](./MILESTONE-2-PLAN.md)
@@ -365,14 +365,6 @@ Built for **Hackathon Subcero v3** with support from:
 - xx.network (privacy layer roadmap)
 
 **Special thanks** to the Arkiv team for excellent SDK documentation and testnet support.
-
----
-
-## Contact
-
-For questions or collaboration:
-- **GitHub Issues**: [Create an issue](https://github.com/your-org/private-credit-score/issues)
-- **Team**: Ivana, Claudio, Charlie
 
 ---
 

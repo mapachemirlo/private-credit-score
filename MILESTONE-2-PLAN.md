@@ -768,15 +768,6 @@ test.describe('Complete Score Flow', () => {
 
 ---
 
-## 📞 Contact & Support
-
-For questions about this roadmap:
-- **GitHub Discussions**: [Link to repo discussions]
-- **Email**: team@private-credit-score.xyz
-- **Discord**: [Coming soon]
-
----
-
 **Last Updated**: November 2024  
 **Version**: 1.0  
 **Status**: Draft (subject to refinement based on Milestone 1 feedback)
