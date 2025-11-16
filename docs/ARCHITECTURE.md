@@ -60,7 +60,7 @@ The Private Cross-Chain Credit Score system combines multiple Web3 technologies 
 - Cryptographic proof of cross-chain data integrity
 - Use ISMP SDK for cross-chain messaging
 
-**Implementation Status**: 🟡 Planned
+**Implementation Status**: Planned
 - [ ] Install Hyperbridge ISMP SDK
 - [ ] Configure cross-chain RPC endpoints
 - [ ] Implement data aggregation logic
@@ -83,7 +83,7 @@ The Private Cross-Chain Credit Score system combines multiple Web3 technologies 
 - Quantum-resistant encryption for sensitive data
 - Anonymize relationship between scorer and score requester
 
-**Implementation Status**: 🟡 Planned
+**Implementation Status**: Planned
 - [ ] Set up xx.network client
 - [ ] Implement cMixx query proxy
 - [ ] Test metadata protection
@@ -107,7 +107,7 @@ The Private Cross-Chain Credit Score system combines multiple Web3 technologies 
 - CRUD operations via SDK
 - Demo account for hackathon (Mendoza RPC restrictions)
 
-**Implementation Status**: ✅ **Completed**
+**Implementation Status**: **Completed**
 - [x] Set up Arkiv SDK integration
 - [x] Implement save/retrieve operations
 - [x] Configure dynamic TTL based on score
@@ -136,7 +136,7 @@ The Private Cross-Chain Credit Score system combines multiple Web3 technologies 
 - Use Kusama's experimental ZK infrastructure
 - Generate proofs that score was calculated correctly without revealing data
 
-**Implementation Status**: 🔴 Optional (Advanced)
+**Implementation Status**: Optional (Advanced)
 - [ ] Research Kusama ZK primitives
 - [ ] Design ZK circuit for scoring
 - [ ] Deploy to Kusama testnet
@@ -237,9 +237,9 @@ forge script script/Deploy.s.sol:Deploy --rpc-url $ARBITRUM_SEPOLIA_RPC_URL --br
 ## Next Steps for Full Integration
 
 ### Phase 1: Data Layer (Current)
-- ✅ Basic UI with wallet connection
-- ✅ Smart contract with time expiration
-- ✅ API route structure
+- Basic UI with wallet connection
+- Smart contract with time expiration
+- API route structure
 
 ### Phase 2: Real Data (Priority)
 - [ ] Integrate The Graph for Aave/Compound data

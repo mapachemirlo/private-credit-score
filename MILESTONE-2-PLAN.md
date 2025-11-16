@@ -1,4 +1,4 @@
-# 🎯 Milestone 2 Plan - Private Cross-Chain Credit Score
+# Milestone 2 Plan - Private Cross-Chain Credit Score
 
 > **Post-Hackathon Development Roadmap**
 > 
@@ -6,14 +6,14 @@
 
 ---
 
-## 📋 Executive Summary
+## Executive Summary
 
 ### Milestone 1 Achievements
 
-✅ **Arkiv Integration** - Fully functional dynamic TTL based on risk tiers  
-✅ **Smart Contract** - Deployed on Sepolia with time-based expiration logic  
-✅ **Frontend MVP** - Complete UI/UX for score calculation and verification  
-✅ **Architecture** - Modular design enabling seamless future integrations  
+**Arkiv Integration** - Fully functional dynamic TTL based on risk tiers  
+**Smart Contract** - Deployed on Sepolia with time-based expiration logic  
+**Frontend MVP** - Complete UI/UX for score calculation and verification  
+**Architecture** - Modular design enabling seamless future integrations  
 
 ### Milestone 2 Vision
 
@@ -39,7 +39,7 @@ Week 10-12 ░░░░░░░░░░░░  Sprint 5: Production Hardening
 
 ---
 
-## 🚀 Sprint 1: Real Data Integration (Weeks 1-2)
+## Sprint 1: Real Data Integration (Weeks 1-2)
 
 ### Objective
 Replace mock scoring algorithm with real on-chain DeFi activity from Aave and Compound.
@@ -143,10 +143,10 @@ export async function calculateRealScore(address: string) {
 
 ### Success Metrics
 
-- ✅ Scores calculated from real on-chain data
-- ✅ Algorithm validated with backtesting (75%+ accuracy)
-- ✅ API response time < 3 seconds
-- ✅ Support for Aave V2, V3, Compound V2, V3
+- Scores calculated from real on-chain data
+- Algorithm validated with backtesting (75%+ accuracy)
+- API response time < 3 seconds
+- Support for Aave V2, V3, Compound V2, V3
 
 ### Risks & Mitigation
 
@@ -158,7 +158,7 @@ export async function calculateRealScore(address: string) {
 
 ---
 
-## 🌐 Sprint 2: Multi-Chain Deployment (Weeks 3-4)
+## Sprint 2: Multi-Chain Deployment (Weeks 3-4)
 
 ### Objective
 Deploy smart contracts to 4 EVM chains and enable cross-chain score aggregation.
@@ -168,7 +168,7 @@ Deploy smart contracts to 4 EVM chains and enable cross-chain score aggregation.
 #### 1. Multi-Chain Contract Deployment
 
 **Chains**:
-- Ethereum Sepolia (✅ already deployed)
+- Ethereum Sepolia (already deployed)
 - Arbitrum Sepolia
 - Optimism Sepolia  
 - Base Sepolia
@@ -247,10 +247,10 @@ const aggregateMultiChainScore = async (address: string) => {
 
 ### Success Metrics
 
-- ✅ Contracts deployed on 4 chains
-- ✅ Cross-chain sync working (< 5 min latency)
-- ✅ Frontend supports chain switching
-- ✅ Aggregate score calculation functional
+- Contracts deployed on 4 chains
+- Cross-chain sync working (< 5 min latency)
+- Frontend supports chain switching
+- Aggregate score calculation functional
 
 ### Risks & Mitigation
 
@@ -262,7 +262,7 @@ const aggregateMultiChainScore = async (address: string) => {
 
 ---
 
-## 🔐 Sprint 3: Hyperbridge Integration (Weeks 5-7)
+## Sprint 3: Hyperbridge Integration (Weeks 5-7)
 
 ### Objective
 Add cryptographic proof verification for cross-chain DeFi activity using Hyperbridge ISMP.
@@ -416,10 +416,10 @@ const updateScoreWithHyperbridgeProof = async () => {
 
 ### Success Metrics
 
-- ✅ Hyperbridge proof generation working
-- ✅ On-chain proof verification functional
-- ✅ Proof hash displayed in UI
-- ✅ Etherscan shows `ScoreUpdatedWithProof` event
+- Hyperbridge proof generation working
+- On-chain proof verification functional
+- Proof hash displayed in UI
+- Etherscan shows `ScoreUpdatedWithProof` event
 
 ### Risks & Mitigation
 
@@ -512,13 +512,13 @@ export async function POST(req: Request) {
 
 With xx.network integration:
 
-✅ **Protected Metadata**:
+**Protected Metadata**:
 - Who is querying the score (sender anonymity)
 - When the query was made (timing obfuscation)
 - Which address was queried (content encryption)
 - Query frequency/patterns (traffic analysis resistance)
 
-🔐 **Cryptographic Guarantees**:
+**Cryptographic Guarantees**:
 - Quantum-resistant encryption (post-quantum secure)
 - Minimum 5 mixnode hops
 - No single point can correlate sender → receiver
@@ -530,10 +530,10 @@ With xx.network integration:
 
 ### Success Metrics
 
-- ✅ cMixx client successfully routes queries
-- ✅ Query latency < 5 seconds (acceptable UX)
-- ✅ Privacy documentation complete
-- ✅ Demo shows metadata protection working
+- cMixx client successfully routes queries
+- Query latency < 5 seconds (acceptable UX)
+- Privacy documentation complete
+- Demo shows metadata protection working
 
 ### Risks & Mitigation
 
@@ -545,7 +545,7 @@ With xx.network integration:
 
 ---
 
-## 🛠️ Sprint 5: Production Hardening (Weeks 10-12)
+## Sprint 5: Production Hardening (Weeks 10-12)
 
 ### Objective
 Prepare platform for mainnet launch and real users.
@@ -638,7 +638,7 @@ test.describe('Complete Score Flow', () => {
 4. Base (Coinbase ecosystem)
 
 **Pre-Deployment Checklist**:
-- [ ] Smart contracts audited ✅
+- [ ] Smart contracts audited 
 - [ ] All tests passing (100% coverage)
 - [ ] Gas costs optimized (<$10 per score update)
 - [ ] Frontend A/B tested with users
@@ -648,11 +648,11 @@ test.describe('Complete Score Flow', () => {
 
 ### Success Metrics
 
-- ✅ Smart contract audit: 0 critical issues
-- ✅ Test coverage: 95%+
-- ✅ Uptime: 99.9% SLA
-- ✅ Mainnet deployment successful
-- ✅ First 100 real users onboarded
+- Smart contract audit: 0 critical issues
+- Test coverage: 95%+
+- Uptime: 99.9% SLA
+- Mainnet deployment successful
+- First 100 real users onboarded
 
 ### Risks & Mitigation
 
@@ -664,7 +664,7 @@ test.describe('Complete Score Flow', () => {
 
 ---
 
-## 💰 Budget Estimate (Milestone 2)
+## Budget Estimate (Milestone 2)
 
 | Category | Item | Cost | Notes |
 |----------|------|------|-------|
@@ -679,36 +679,36 @@ test.describe('Complete Score Flow', () => {
 
 ---
 
-## 🎯 Success Criteria (Milestone 2 Complete)
+## Success Criteria (Milestone 2 Complete)
 
 ### Technical Criteria
 
-- ✅ Scores calculated from real DeFi data (Aave + Compound)
-- ✅ Hyperbridge proofs verified on-chain
-- ✅ xx.network privacy layer functional
-- ✅ Deployed on 4 mainnet chains
-- ✅ Smart contracts audited (0 critical issues)
-- ✅ 95%+ test coverage
-- ✅ 99.9% uptime
+- Scores calculated from real DeFi data (Aave + Compound)
+- Hyperbridge proofs verified on-chain
+- xx.network privacy layer functional
+- Deployed on 4 mainnet chains
+- Smart contracts audited (0 critical issues)
+- 95%+ test coverage
+- 99.9% uptime
 
 ### Business Criteria
 
-- ✅ 1,000+ active users
-- ✅ 2-3 lending protocol partnerships
-- ✅ <$5 cost per score calculation
-- ✅ Positive user feedback (4.5+ rating)
+- 1,000+ active users
+- 2-3 lending protocol partnerships
+- <$5 cost per score calculation
+- Positive user feedback (4.5+ rating)
 
 ### Product Criteria
 
-- ✅ <3 second score calculation
-- ✅ <5 second privacy-protected queries
-- ✅ Mobile-responsive UI
-- ✅ Complete documentation
-- ✅ Video tutorials available
+- <3 second score calculation
+- <5 second privacy-protected queries
+- Mobile-responsive UI
+- Complete documentation
+- Video tutorials available
 
 ---
 
-## 🚧 Risk Management
+## Risk Management
 
 ### High Priority Risks
 
@@ -736,7 +736,7 @@ test.describe('Complete Score Flow', () => {
 
 ---
 
-## 📚 References & Resources
+## References & Resources
 
 ### Technical Documentation
 - Arkiv SDK: https://docs.arkiv.network/
@@ -756,7 +756,7 @@ test.describe('Complete Score Flow', () => {
 
 ---
 
-## 🤝 Team Roles (Milestone 2)
+## Team Roles (Milestone 2)
 
 | Name | Role | Responsibilities |
 |------|------|------------------|
@@ -774,4 +774,4 @@ test.describe('Complete Score Flow', () => {
 
 ---
 
-**Built with vision and ambition for the future of DeFi credit** 🚀
+**Built with vision and ambition for the future of DeFi credit** 

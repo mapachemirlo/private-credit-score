@@ -11,7 +11,7 @@
 
 ---
 
-## 🎯 Problema de Negocio
+## Problema de Negocio
 
 ### Situación Actual en DeFi
 
@@ -24,9 +24,9 @@
 - Barrera de entrada: Solo usuarios con capital significativo pueden participar
 
 **Usuarios Afectados**:
-- 🔴 Nuevos usuarios sin capital inicial suficiente
-- 🔴 Traders que necesitan liquidez temporal
-- 🔴 Proyectos emergentes que necesitan financiamiento
+- Nuevos usuarios sin capital inicial suficiente
+- Traders que necesitan liquidez temporal
+- Proyectos emergentes que necesitan financiamiento
 
 #### 2. **Fragmentación Cross-Chain**
 **Problema**: Tu reputación en Ethereum no cuenta en Arbitrum.
@@ -50,7 +50,7 @@ María tiene:
 
 ---
 
-## 💡 Solución: Credit Scoring Cross-Chain Privado
+## Solución: Credit Scoring Cross-Chain Privado
 
 ### Modelo de Negocio
 
@@ -80,7 +80,7 @@ María tiene:
 │      │  6. Approved: 80% LTV │                       │     │
 │      │<──────────────────────┼───────────────────────┤     │
 │      │                       │                       │     │
-│  💰 Beneficio:            📊 Revenue:            💼 Beneficio:│
+│  Beneficio:            Revenue:            💼 Beneficio:│
 │  - Menos colateral        - Query fees           - Menos riesgo│
 │  - Mejor tasa             - Premium features     - Más volumen│
 │  - Acceso facilitado      - Protocol partnerships│           │
@@ -128,10 +128,10 @@ Portfolio Optimizado:
 └── Total Prestado: $5B (mismo volumen)
 
 Resultados:
-✅ Liquidaciones totales: $40M (↓20% = $10M ahorrados)
-✅ Revenue adicional: +$15M (segmento premium)
-✅ TVL requerido: $6.8B (↓9% = $700M liberados)
-✅ ROI del sistema: 25x en primer año
+Liquidaciones totales: $40M (↓20% = $10M ahorrados)
+Revenue adicional: +$15M (segmento premium)
+TVL requerido: $6.8B (↓9% = $700M liberados)
+ROI del sistema: 25x en primer año
 ```
 
 #### Implementación Técnica
@@ -193,14 +193,14 @@ Paso 1: Carlos calcula su score
 ├── Liquidation: 212/212 (nunca liquidado)
 ├── Portfolio: 170/170 (7 protocolos, 12 assets)
 ├── Cross-Chain: 127/127 (activo en 4 chains)
-└── Total Score: 849/850 → Tier: EXCELLENT ⭐
+└── Total Score: 849/850 → Tier: EXCELLENT 
 
 Paso 2: Protocolo ofrece términos premium
 ├── LTV ofrecido: 80% (score 849)
 ├── Colateral requerido: $62,500 ETH
 ├── Ahorro: $12,500 (vs $75k anterior)
 ├── Tasa: 4% APY (vs 5% estándar)
-└── Decisión: ✅ Préstamo aprobado
+└── Decisión: Préstamo aprobado
 
 Beneficios Cuantificados:
 Carlos:
@@ -498,7 +498,7 @@ function updateRiskTiers(
 
 ---
 
-## 💰 Modelo de Monetización
+## Modelo de Monetización
 
 ### Revenue Streams
 
@@ -559,7 +559,7 @@ NFT que representa tu score (transferible, collateralizable):
 
 ---
 
-## 📊 KPIs de Negocio
+## KPIs de Negocio
 
 ### Métricas de Usuario (Demand Side)
 
@@ -593,7 +593,7 @@ NFT que representa tu score (transferible, collateralizable):
 
 ---
 
-## 🎯 Go-To-Market Strategy
+## Go-To-Market Strategy
 
 ### Fase 1: Probar con Early Adopters (Mes 1-3)
 
@@ -676,7 +676,7 @@ Revenue:
 
 ---
 
-## 🔐 Risk Management & Mitigación
+## Risk Management & Mitigación
 
 ### Riesgos de Negocio
 
@@ -784,7 +784,7 @@ async function deleteUserScore(userAddress: string) {
 
 ---
 
-## 📈 Proyecciones Financieras 3 Años
+## Proyecciones Financieras 3 Años
 
 ### Año 1 (MVP → Product-Market Fit)
 
@@ -859,7 +859,7 @@ Año 3 Total:
 
 ---
 
-## 🏆 Ventajas Competitivas
+## Ventajas Competitivas
 
 ### 1. **Network Effects Multi-Sided**
 
@@ -899,7 +899,7 @@ Valor: $50M+ en brand equity + barriers to entry
 
 ---
 
-## 🌍 Visión a Largo Plazo (5-10 años)
+## Visión a Largo Plazo (5-10 años)
 
 ### De Credit Score a Identity Layer de DeFi
 
@@ -948,15 +948,15 @@ Modelo de Negocio:
 
 ---
 
-## 📚 Anexo: Comparación con Competencia
+## Anexo: Comparación con Competencia
 
 | Feature | **Nuestro Proyecto** | Competidor A (Credora) | Competidor B (TrueFi) |
 |---------|---------------------|----------------------|---------------------|
-| Cross-Chain | ✅ 4+ chains (Hyperbridge) | ❌ Solo Ethereum | ⚠️ 2 chains (manual) |
-| Privacy | ✅ xx.network (quantum-resistant) | ❌ Todo público | ❌ Todo público |
-| Auto-Expiration | ✅ 90 días (Arkiv) | ❌ Manual | ❌ No expira |
-| User-Facing | ✅ Self-service (Next.js) | ❌ B2B only | ⚠️ Limited UI |
-| Decentralized | ✅ On-chain verification | ⚠️ Centralized oracle | ⚠️ DAO-controlled |
+| Cross-Chain | 4+ chains (Hyperbridge) | ❌ Solo Ethereum | ⚠️ 2 chains (manual) |
+| Privacy | xx.network (quantum-resistant) | ❌ Todo público | ❌ Todo público |
+| Auto-Expiration | 90 días (Arkiv) | ❌ Manual | ❌ No expira |
+| User-Facing | Self-service (Next.js) | ❌ B2B only | ⚠️ Limited UI |
+| Decentralized | On-chain verification | ⚠️ Centralized oracle | ⚠️ DAO-controlled |
 | Cost per Score | $5 | $50+ (enterprise) | Free (pero reqs KYC) |
 | Time to Score | 2 minutos | 2 días | 1 hora |
 | Adoption | Early stage | 50 institucionales | 10k retail users |
@@ -969,4 +969,4 @@ Modelo de Negocio:
 **Fecha**: Noviembre 2024  
 **Versión**: 1.0  
 
-*Built with ❤️ for the future of DeFi credit*
+*Built with for the future of DeFi credit*
