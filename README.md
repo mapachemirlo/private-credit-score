@@ -1,21 +1,21 @@
-# 🏆 Private Cross-Chain Credit Score
+# Private Cross-Chain Credit Score
 
 > **Hackathon Subcero v3 - Milestone 1 Submission**
 > 
 > Decentralized credit scoring system with time-scoped data storage powered by Arkiv, enabling under-collateralized lending in DeFi through verifiable reputation across multiple chains.
 
-## 📺 Demo & Resources
+## Demo & Resources
 
-- **🌐 Live Demo**: https://private-credit-score-v2.vercel.app/
-- **🎥 Pitch Video**: [Coming Soon - Will be added before final submission]
-- **📊 Pitch Deck**: [Coming Soon - Will be added before final submission]
-- **🎬 Demo Video**: [Coming Soon - Separate technical walkthrough]
-- **📜 Smart Contract (Sepolia)**: `0xACdfc1F029F28f8c1EE2920B0FE0ac7a80BC182B`
-- **🗄️ Arkiv (Mendoza L3)**: Fully integrated with dynamic TTL
+- **Live Demo**: https://private-credit-score-v2.vercel.app/
+- **Pitch Video**: [Coming Soon - Will be added before final submission]
+- **Pitch Deck**: [Coming Soon - Will be added before final submission]
+- **Demo Video**: [Coming Soon - Separate technical walkthrough]
+- **Smart Contract (Sepolia)**: `0xACdfc1F029F28f8c1EE2920B0FE0ac7a80BC182B`
+- **Arkiv (Mendoza L3)**: Fully integrated with dynamic TTL
 
 ---
 
-## 👥 Team
+## Team
 
 - **Ivana** - Product Designer
 - **Claudio** - Blockchain Developer
@@ -23,7 +23,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -66,33 +66,33 @@ For Arkiv integration, add the Mendoza testnet:
 
 ---
 
-## 💡 Problem Statement
+## Problem Statement
 
 **DeFi lending today requires 150% collateral** because there's no portable credit history. This creates:
 
-- 🔴 **Capital Inefficiency**: Users lock $150k to borrow $100k
-- 🔴 **Fragmentation**: Your Ethereum reputation doesn't count on Arbitrum
-- 🔴 **Privacy Risks**: All credit queries are public and linkable
-- 🔴 **Compliance Gaps**: GDPR requires data expiration, but blockchain is permanent
+- **Capital Inefficiency**: Users lock $150k to borrow $100k
+- **Fragmentation**: Your Ethereum reputation doesn't count on Arbitrum
+- **Privacy Risks**: All credit queries are public and linkable
+- **Compliance Gaps**: GDPR requires data expiration, but blockchain is permanent
 
 These barriers exclude 95% of potential DeFi users who lack massive capital reserves.
 
 ---
 
-## ✨ Our Solution
+## Our Solution
 
 ### Cross-Chain Credit Scoring with Time-Scoped Data
 
 We enable **under-collateralized lending** (80-120% LTV) for users with proven on-chain reputation by:
 
-1. **🎯 Calculating verifiable scores** based on DeFi activity
-2. **⏰ Auto-expiring data** via Arkiv's TTL based on user risk
-3. **🔐 Privacy protection** for score queries (roadmap: xx.network)
-4. **🌉 Cross-chain verification** (roadmap: Hyperbridge proofs)
+1. **Calculating verifiable scores** based on DeFi activity
+2. **Auto-expiring data** via Arkiv's TTL based on user risk
+3. **Privacy protection** for score queries (roadmap: xx.network)
+4. **Cross-chain verification** (roadmap: Hyperbridge proofs)
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌──────────────────────────────────────────────────────┐
@@ -125,20 +125,20 @@ We enable **under-collateralized lending** (80-120% LTV) for users with proven o
 
 ### Technology Stack
 
-**✅ Implemented (Milestone 1)**:
+**Implemented (Milestone 1)**:
 - **Frontend**: Next.js 14, TypeScript, wagmi v2, RainbowKit
 - **Smart Contracts**: Solidity ^0.8.20, Foundry
 - **Time-Scoped Storage**: Arkiv SDK (@arkiv-network/sdk v0.4.4)
 - **Deployment**: Vercel (frontend), Sepolia (contracts), Mendoza L3 (Arkiv)
 
-**🔜 Roadmap (Milestone 2)**:
+**Roadmap (Milestone 2)**:
 - **Cross-Chain Verification**: Hyperbridge ISMP SDK
 - **Privacy Layer**: xx.network cMixx
 - **Real Data**: The Graph integration for Aave/Compound
 
 ---
 
-## 🎯 Key Innovation: Dynamic TTL with Arkiv
+## Key Innovation: Dynamic TTL with Arkiv
 
 ### Why This Matters
 
@@ -190,7 +190,7 @@ const { entityKey, txHash } = await client.createEntity({
     { key: 'tier', value: 'Low Risk' },
     { key: 'ttl_days', value: '90' }
   ],
-  expiresIn: ExpirationTime.fromDays(90)  // 🔥 Auto-deletion
+  expiresIn: ExpirationTime.fromDays(90)  // Auto-deletion
 });
 ```
 
@@ -201,7 +201,7 @@ const { entityKey, txHash } = await client.createEntity({
 
 ---
 
-## 🔮 Future Integrations (Milestone 2 Roadmap)
+## Future Integrations (Milestone 2 Roadmap)
 
 ### Hyperbridge: Trustless Cross-Chain Verification
 
@@ -254,7 +254,7 @@ const result = await cMixxClient.queryScore({
 
 ---
 
-## 📊 Scoring Algorithm
+## Scoring Algorithm
 
 **Score Range**: 300-850 (FICO-inspired)
 
@@ -270,7 +270,7 @@ const result = await cMixxClient.queryScore({
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── contracts/              # Smart contracts (Foundry)
@@ -287,7 +287,7 @@ const result = await cMixxClient.queryScore({
 │   ├── components/
 │   │   └── ScoreCalculator.tsx   # Core component
 │   ├── lib/
-│   │   ├── arkiv.ts             # 🔥 Arkiv integration
+│   │   ├── arkiv.ts             # Arkiv integration
 │   │   ├── contracts.ts         # Contract config
 │   │   └── wagmi.ts             # Web3 setup
 │   └── public/
@@ -304,7 +304,7 @@ const result = await cMixxClient.queryScore({
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Smart Contracts
 
@@ -333,7 +333,7 @@ npm run dev
 
 ---
 
-## 🎓 Learn More
+## Learn More
 
 ### Documentation
 
@@ -351,13 +351,13 @@ npm run dev
 
 ---
 
-## 📜 License
+## License
 
 MIT License - see [LICENSE](./LICENSE) for details
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Built for **Hackathon Subcero v3** with support from:
 - Arkiv Network (time-scoped storage)
@@ -368,7 +368,7 @@ Built for **Hackathon Subcero v3** with support from:
 
 ---
 
-## 📞 Contact
+## Contact
 
 For questions or collaboration:
 - **GitHub Issues**: [Create an issue](https://github.com/your-org/private-credit-score/issues)
@@ -376,4 +376,4 @@ For questions or collaboration:
 
 ---
 
-**Built with ❤️ for the future of DeFi credit**
+**Built with for the future of DeFi credit**
