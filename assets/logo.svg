@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 300">
   <!-- Black background -->
-  <rect width="1200" height="300" fill="#000000"/>
+  <rect width="1400" height="300" fill="#000000"/>
   
   <!-- Gradient definition -->
   <defs>
@@ -11,11 +11,11 @@
   </defs>
   
   <!-- Private (white) -->
-  <text x="50" y="200" font-family="Arial, sans-serif" font-size="140" font-weight="bold" fill="#FFFFFF">Private</text>
+  <text x="30" y="200" font-family="Arial, sans-serif" font-size="140" font-weight="bold" fill="#FFFFFF">Private</text>
   
   <!-- Credit (purple/magenta) -->
-  <text x="480" y="200" font-family="Arial, sans-serif" font-size="140" font-weight="bold" fill="#B030FF">Credit</text>
+  <text x="500" y="200" font-family="Arial, sans-serif" font-size="140" font-weight="bold" fill="#B030FF">Credit</text>
   
   <!-- Score (orange/yellow gradient) -->
-  <text x="850" y="200" font-family="Arial, sans-serif" font-size="140" font-weight="bold" fill="url(#orangeGradient)">Score</text>
+  <text x="920" y="200" font-family="Arial, sans-serif" font-size="140" font-weight="bold" fill="url(#orangeGradient)">Score</text>
 </svg>
